@@ -1,0 +1,70 @@
+Course Introduction:
+Prompt Engineering and Working With Large Language Models
+
+How to work With Large Language Models?
+
+
+Prompt Engineering is a skill, not a career.
+
+How to use AI to become more efficient and effective?
+
+Understand how LLMs really work?
+
+Empirical research and peer-reviewed studies
+Hands-on demo and exercises
+Guided and unguided projects
+opportunity to use closed-and open-source LLMs
+Advanced tools and techniques
+The latest information and updates
+
+What is Prompt Engineering?
+
+Prompts : Instruction and context provided to an AI for a certain task
+
+
+Prompt Engineering : The practice of developing and optimizing prompts to efficiently use an AI for a certain task.
+
+But in order  to get high quality and accurate result : optimize prompts
+
+Understanding the context and purpose of your task
+
+Understanding the science of prompt engineering : LLM : Large Language Models
+
+Elements of Prompt : 
+Input : 
+
+Output : 
+
+Prompt Engineering is sort of like Programming in Natural Language.
+
+A multidisciplinary branch of engineering focused on interacting with Artificial Intelligence through the integration of fields including software engineering, Machine Learning, Cognitive Science, Business Philosophy, Psychiatry, and Computer Science.
+
+Why Prompt Engineering ? 
+
+Why is Prompt Engineering Even a Thing?
+
+ChatGPT
+
+Trained on Data  : LLM
+
+Prompt : What movie do these emoji describe?
+Small Language Models
+Medium Language Models
+Large Language Models
+
+
+Size of Language Model : Performance
+
+Atoms : Molecules : Cells : ?? : Life
+
+
+
+
+
+
+
+
+
+
+
+
