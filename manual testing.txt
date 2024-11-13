@@ -49,13 +49,7 @@ Every cycle of spiral model looks like waterfall model.
 There is no testing in requirement and design phase.
 
 
-Agile model/ Agile Methodology/ Agile Process
 
-It is an Iterative and Incremental Approach.
-
-Agile is an Iterative and Incremental Process.
-
-Deliver Software in Piece of requirements : 
 
 Prototype Model : 
 Initial requirements from the customer ---> Prototype ----> Customer ----> Design, Coding, Testing ....
@@ -113,9 +107,119 @@ Disadvantage :
 Documentation is more
 Initial investment is more.
 
+Static Testing Techniques : 
+Review
+Walkthrough
+Inspection
+
+Dynamic Testing Techniques : 
+Unit Testing
+Integeration Testing
+System Testing
+UAT : User acceptance Testing
+
+Review : 
+Conducts on documents  to ensure correctness and completeness.
+
+Requirement Reviews
+Design Reviews
+Code Reviews
+Test Plan Reviews
+Test cases revies etc.
+
+Walkthrough : 
+It is informal review
+Author reads the documents or code and discuss with peers
+It's not pre-planned and can be done whenever required.
+Also walkthorugh does not have minutes of the meet.
+
+Inspection : 
+Its a most formal review type.
+In which at least 3-8 people will sit in the meeting 1-reader 2-writer 3-moderator plus concerned.
+Inspection will have a proper schedule which will be intimated via email to the concerened developer tester.
+
+QA : 
+Quality Assurance (QA) is a systematic process designed to determine whether a product or service meets specified requirements. It is a proactive approach that helps you prevent defects before they occur. Testing, a component of QA, is the practice of executing a program or application to find errors.
+QA is process related.
+QA focuses on preventing defects.
+QA for entire lifecycle.
+QA focuses on building in quality.
+People : QC(Testers)
+Process  : QA
+Product :  
+
+QC : 
+Quality control (QC) is a procedure or set of procedures intended to ensure that a manufactured product or performed service adheres to a defined set of quality criteria or meets the requirements of the client or customer. QC is similar to, but not identical with, quality assurance (QA).
+
+QC focuses on testing for quality.
+QC is actual testing of software.
+QC is product oriented.
+QC for testing part of SDLC.
+QC focuses on testing for quality.
+
+Software Engineer
+
+
+Quality Engineer
+
+Levels of Testing
+Unit Testing
+Integeration Testing
+System Testing
+User Acceptance Testing(UAT)
+
+SDLC : 
+Requirement Analysis
+Design
+Coding
+Testing
+Deployment
+Maintainanace
+
+Unit Testing :
+A unit is a single component or module of a software.
+Unit Testing conducts on a single programm or single module.
+Unit testing is white box testing techniques.
+Unit testing is conducted by developers.
+
+Unit testing techniques : 
+Basis path testing
+control structure testing
+conditional coverage
+Loops coverage
+Mutation testing
+
+
+a = 20 b = 10
+if a > b
+	print a is largest
+else
+	print b is largest
+
+1...5 numbers
+
+i=1
+max = 10
+
+while(i<=10)
+{
+  print i
+i=i+1
+}
+
+
+
+Agile model/ Agile Methodology/ Agile Process
+
+It is an Iterative and Incremental Approach.
+
+Agile is an Iterative and Incremental Process.
+
+Deliver Software in Piece of requirements : 
+
 Agile Principles : 
 
-1. Customers no need to wait fir long time.
+1. Customers no need to wait for long time.
 2. We develop , test and release piece of software to the customer with few number of features.
 3.We can accept /accomodate requirement changes.
 
@@ -187,6 +291,13 @@ Story point : Rough estimation of user stoires , will be given by Dev and QA in 
 Login -----> Dev - 5 QA - 3  = 8 hours/ 1 day
 
 Burndown chart : Shows how much work remaining in the sprint. Maintained by the scrum master daily.
+
+Scrum Development  : Agile Methodology
+
+Process : Scrum Projects are organized in ahort iterations, during which the team works to add incremental value to the end of the product.
+
+
+
 
 
 
