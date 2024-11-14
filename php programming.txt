@@ -1,0 +1,183 @@
+PHP : 
+Data Types : 
+
+Laravel : 
+MVC
+
+Model : Database : SQL, NoSQL
+View : Front End
+Controller : PHP : OOP
+
+Project Develop : 
+Ecommerce : 
+Login Module
+Registration Module
+
+Constraints : 
+mobile : otp verification
+email : validation
+
+multiple registration
+
+login : 
+content access not allowed
+
+middleware : 
+authentication
+authorization
+
+api : application programming interface
+Rest 
+Fast
+
+
+Database optimization : 
+
+RelationShip : 
+one to one
+one to many
+many to many
+many to one
+
+Api Layer : 
+
+Redirect multiple pages
+
+PHP Programming : 
+
+PHP : Rosmus Lerdroff
+
+Model : Database
+
+View : Front End
+
+Controller : PHP OOP
+
+Data types : 
+String : 
+
+strtolower()
+strtoupper()
+strlen()
+strwordcount()
+strrev()
+md5()
+crypt()
+print()
+echo()
+print_r()
+var_dump()
+var_export()+
+
+Array : 
+
+array_map
+array_filter
+array_reduce
+array_flip
+array_unique
+array_merge
+sort()
+ksort()
+
+
+integer : 
+
+float/double : 
+
+Object : 
+
+boolean : false, true
+
+operators : 
+Arithmetic : 
++, -, *, /, %, ** 
+
+Relational : 
+>, <, >=, <=, ==, !=
+
+Logical : 
+and(&&), or(||), not(!)
+
+Bitwise : 
+&, |, ~
+Ternary : 
+(condition) ? true : false
+
+Assignment : 
+=, +=, -=, *=, /=
+
+Variables : 
+used to store the value in memory location
+
+$first_name = "twinkle"
+
+$age = 24
+
+Global variables : 
+
+$GLOBALS.
+$_SERVER.
+$_REQUEST.
+$_POST.
+$_GET.
+$_FILES.
+$_ENV.
+$_COOKIE.
+
+what is difference between session and cookies?
+
+Session : it is related to user
+
+
+Cookies : it is related with browser
+
+The main difference between sessions and cookies is where they are stored: sessions are stored on the server, while cookies are stored on the client's browser: 
+
+Session : 
+Sessions are essential for managing user authentication, tracking user interactions, and maintaining user-specific data. Cookies are best suited for storing data that needs to be readable by the server.
+
+Cookies : 
+Cookies and sessions are used by websites to store users' data across different pages of the site. The key difference between sessions and cookies is that sessions are saved on the server side while cookies are saved on the client side. Cookies are small text files used to store user information on the user's computer.
+
+
+isset : check value of variable is set or not
+
+unset : destrpy the variable
+
+
+implode : 
+PHP Implode Function
+The implode function in PHP is used to "join elements of an array with a string".
+
+The implode() function returns a string from elements of an array. It takes an array of strings and joins them together into one string using a delimiter (string to be used between the pieces) of your choice. 
+
+The implode function in PHP is easily remembered as "array to string", which simply means that it takes an array and returns a string. It rejoins any array elements and returns the resulting string, which may be put in a variable.
+
+Suppose you have an array like this $arr = Array ("A","E","I","O","U");
+
+and you wish to combine it into a string, by putting the separator '-' between each element of the array.
+
+
+explode : 
+The explode function is used to "Split a string by a specified string into pieces i.e. it breaks a string into an array".
+
+The explode function in PHP allows us to break a string into smaller text with each break occurring at the same symbol. This symbol is known as the delimiter. Using the explode command we will create an array from a string. The explode() function breaks a string into an array, but the implode function returns a string from the elements of an array.
+
+For example, you have a string
+
+$str="A E I O U";
+
+now you want to make each name as an element of an array and access it individually so what you do:
+
+$arr = explode(",", $str);
+
+means: we have made pieces of string $text based on separator ','
+
+and put the resulting array in variable $arr.
+
+
+
+
+
+
