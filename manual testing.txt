@@ -206,8 +206,59 @@ while(i<=10)
   print i
 i=i+1
 }
+if user = "dharti" and password="123"
+	allow login
+else
+	not allow login
 
+Integeration Testing : 
 
+Integeration testing performed between 2 or more modules.
+Integeration testing focuses on checking data communication between multiple modules.
+Integerated testing is white box testing technique.
+
+Types of integeration testing :
+Incremental Integeration testing 
+Non-incrmental integeration testing
+
+Incremental Integeration testing  : 
+Incrementally  adding the modules and testing the data flow between modules.
+
+2 Approaches : 
+Top Down
+Bottom Up
+
+Top Down Incrmental Integeration Testing : 
+Incrementally adding the modules and testing the data flow between the modules. And ensure the module added is the child of previous module.
+
+Bottom Up Incremental Integeration testing : 
+Incementally adding the modules and testing the data flow between the modules. And ensure the module added is parent of the previous module.
+
+Sandwich/Hybrid Approach : Combination of Top-Down and Bottom Up approach is called sandiwch approach.
+
+Non incremental Integeration testing : 
+Adding all the modules in a single shot and test the data flow beteen modules.
+
+Drawbacks : 
+We might miss data flow between some of the modules.
+If you find any defect we cant understand the root cause of defect.
+
+System Testing : 
+Testing over all functionality of the application with respective client requirements.
+It is a black box testing technique.
+This testing is conducted by testing team.
+After completion of component and integeration level testing's we start system testing.
+Before conducting system testing we should know the customer requirements.
+System testing focuses on below aspects.
+User interface testing
+	Functional testing
+	non-functional testing
+	Usability testing
+
+User Acceptance testing : 
+After completion of system testing UAT team conducts testing in two levels.
+Alpha testing
+Beta testing
 
 Agile model/ Agile Methodology/ Agile Process
 
@@ -297,9 +348,120 @@ Scrum Development  : Agile Methodology
 Process : Scrum Projects are organized in ahort iterations, during which the team works to add incremental value to the end of the product.
 
 
+Software quality assurance vs quality control vs  testing : 
+
+While to err is human, sometimes the cost of a mistake might be just too high. History knows many situations when software flaws caused billions of dollars in waste or even led to casualties: from Starbucks coffee shops forced to give away free drinks because of a register malfunction to the F-35 fighter jet unable to detect the targets because of a radar failure.
+
+
+The concept of software quality is introduced to ensure the released program is safe and functions as expected. It can be defined as “the capability of a software product to satisfy stated and implied needs under specific conditions. Additionally, quality refers to the degree to which a product meets its stated requirements.”
+
+Quality assurance (QA), quality control (QC), and QA software testing are three aspects of quality management to ensure that a program works as intended Often used interchangeably, the three terms cover different processes and vary in their scope, though they have the same goal  — to deliver the best possible digital product or service.
+
+
+What is quality assurance?
+Quality assurance is a broad term, explained on the Google Testing Blog, as “the continuous and consistent improvement and maintenance of process that… gives us confidence the product will meet the need of customers.” QA focuses on organizational aspects of quality management, aiming to improve the end-to-end product development life cycle, from requirements analysis to launch and maintenance.
+
+QA plays a crucial role in the early identification and prevention of product defects. Among its key activities are
+
+setting quality standards and procedures,
+creating guidelines to follow across the development process,
+conducting measurements,
+reviewing and changing workflows to enhance them.
+QA engages external stakeholders and a broad range of internal specialists, including business analysts (BAs), QA engineers, and software developers. Its ultimate goal is to establish an environment ensuring the production of high-quality items and, thus, to build trust with clients.
+
+
+What is quality control : 
+
+Quality control is a part of quality management that verifies the product’s compliance with standards set by QA. Investopedia defines it as a “process through which a business seeks to ensure that product quality is maintained or improved and manufacturing errors are reduced or eliminated.”
+
+While QA activities aim to prevent issues across the entire development process, QC is about detecting bugs in the ready-to-use software and checking its correspondence to the requirements before the product launch. It encompasses code reviews and testing activities conducted by the engineering team.
+
+
+What is software testing?
+Testing is the primary activity of detecting and solving technical issues in the software source code and assessing the overall product usability, performance, security, and compatibility. It has a narrow focus and is performed by test engineers in parallel with a development process or at the dedicated testing stage (depending on the methodological approach to the software development cycle).
+
+
+If applied to car manufacturing, a proper quality assurance process means that every team member understands the requirements and performs their work according to the commonly accepted guidelines. Namely, it ensures the performance of actions in the correct order, proper details implementation, and consistency of the overall flow so that nothing can harm the end product.
+
+Quality control is like a senior manager walking into a production department and picking a random car for an examination and test drive. In this case, testing activities refer to checking every joint and mechanism separately and conducting crash tests, performance tests, and actual or simulated test drives.
+
+Due to its hands-on approach, software testing activities remain a subject of heated discussion. That is why we will focus primarily on this aspect of software quality management. But before we get into the details, let’s define the major software testing principles.
+
+
+
+Software testing life cycle : 
+
+Software testing life cycle (STLC) is a series of activities conducted within the software development life cycle or alongside the SDLC stages. It typically consists of six distinct phases: requirement analysis, test planning, test case development, environment setup, test execution, and test closure. Each phase is associated with specific activities and deliverables.
+
+Test case development : 
+QA or software engineers develop test cases  — detailed descriptions of how to assess a particular feature. It includes test preconditions, data inputs, necessary actions, and expected outcomes  Upon creation, a QA team reviews test cases and updates the RTM document linking them to requirements. The stage should produce a set of easy-to-understand and concise instructions that ensure a thorough testing process.
+
+Test environment setup (250 potential, easy)
+
+Once test cases are ready, they need a secured and isolated virtual space for execution  — a testing environment. It combines hardware, software, data, and networks configured for the requirements of the program being checked. The test environment must emulate production scenarios as closely as possible.
+
+Usually, companies set up several environments to conduct different tests  — unit, system, security, and so on. The end-to-end testing is typically performed in a staging environment which exactly replicates live conditions and employs real data but is not accessible for end users.
+
+
+Test execution : 
+A testing team starts to run test cases in the prepared environment. Then, QA engineers analyze the results and share outcomes with developers and stakeholders. If there are any bugs or defects, test execution repeats after developers have addressed the problems. The main deliverables of this stage are different test reports  — bug reports, test execution reports, test coverage reports, etc. The RTM also gets updated with test results.
+
+
+Test closure
+There is no perfect software, so the testing is never 100 percent complete. It is an ongoing process. However, we have the so-called “exit criteria,” which define whether there was “enough testing” based on the risk assessment of the project.
+
+There are common points present in the exit criteria:
+
+Test case execution is 100 percent complete.
+A system has no high-priority defects.
+The performance of the system is stable regardless of the introduction of new features.
+The software supports all necessary platforms and/or browsers
+User acceptance testing is completed.
+As soon as all of these requirements (or any custom ones you have set in your project) are met, the testing is closed. The test summary and closure reports are prepared and provided to the stakeholders. The team holds a retrospective meeting to define and document the issues that occurred during the development and improve the process.
+
+
+
+Testing concepts and categories : 
+
+Software testing comes in a variety of forms, happens at different stages of the development process, checks various parts of the software, focuses on a number of characteristics  — and, as a result, divides into many categories. Below, we’ll look into key concepts of software testing and how they interconnect with each other.
 
 
 
 
+Static testing vs dynamic testing  : 
+
+The software testing process identifies two broad categories  — static testing and dynamic testing.
+
+Static testing initially examines the source code and software project documents to catch and prevent defects early in the software testing life cycle. Also called a non-execution technique or verification testing, it encompasses
+
+code reviews  — systematic peer inspections of the source code;
+code walkthroughs  — informal meetings when a developer explains a program to peers, receives comments and makes modifications to the code; and
+code inspections  — formal procedures carried out by experts from several departments to validate product compliance with requirements and standards.
+As soon as the primary preparations are finished, the team proceeds with dynamic testing conducted during execution. This whitepaper focuses on dynamic testing as the most common way to validate code behavior. It varies by design techniques, levels, and types. You can do use case testing (a type) during the system or acceptance testing (a level) using black box testing (a design technique). Let’s examine each group separately.
 
 
+Levels of software testing : 
+
+Software testing levels vary in the scope of what is checked, ranging from a single component to an entire program as a whole. Commonly, before release, the code goes through four test layers: unit testing, integration testing, system testing, and acceptance testing.
+
+
+
+Quality testing methods and techniques
+Software testing methods are the ways tests at different levels are conducted. They include black box testing, white box testing, gray box testing, ad hoc testing, and exploratory testing.
+
+Black box testing
+This method gets its name because a QA engineer focuses on the inputs and the expected outputs without knowing how the application works internally and how these inputs are processed. The main purpose is to check the functionality of the software, making sure that it works correctly and meets user demands. Black box testing applies to any level but is mostly used for system and user acceptance testing.
+
+White box testing
+Unlike black box testing, this method requires a profound knowledge of the code as it evaluates structural parts of the application. Therefore, developers directly involved in writing the program are generally responsible for conducting such checks. White box testing aims to enhance security, reveal hidden defects, and address them. This method is used at the unit and integration levels.
+
+Gray box testing
+The method combines the two previous ones, testing both functional and structural parts of the application. Here, an experienced engineer is at least partially aware of the source code and designs test cases based on the knowledge about data structures, algorithms used, etc. At the same time, the tester applies straightforward black-box techniques to evaluate the software’s presentation layer from a user’s perspective. Gray box testing is mainly applicable to the integration level.
+
+Smoke testing
+Smoke testing is a popular white box technique to check whether a build added to the software is bug-free. It contains a short series of test runs, evaluating a new feature against critical functionality. The goal is to confirm that the component is ready for further, more time-consuming and expensive testing. Any flaws signal the need to return the piece of code to developers.
+
+ Ad hoc testing
+This informal testing technique is performed without documentation, predefined design, and test cases. A QA expert improvises steps and randomly executes them to spot defects missed by structured testing activities. Ad hoc testing can happen early  in the development cycle before a test plan is created.
+
+Flexible and adaptive to changes, ad hoc testing is faster and more cost-effective than formal methods. At the same time, you need to complement it by more structured QA activities.
